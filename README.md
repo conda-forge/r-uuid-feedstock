@@ -14,14 +14,16 @@ Summary: Tools for generating and handling of UUIDs (Universally Unique Identifi
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-uuid-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-uuid-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-uuid-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-uuid-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-uuid-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-uuid-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-uuid-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-uuid-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-uuid-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-uuid-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-uuid-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-uuid-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-uuid/badges/version.svg)](https://anaconda.org/conda-forge/r-uuid)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-uuid/badges/downloads.svg)](https://anaconda.org/conda-forge/r-uuid)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--uuid-green.svg)](https://anaconda.org/conda-forge/r-uuid) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-uuid.svg)](https://anaconda.org/conda-forge/r-uuid) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-uuid.svg)](https://anaconda.org/conda-forge/r-uuid) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-uuid.svg)](https://anaconda.org/conda-forge/r-uuid) |
 
 Installing r-uuid
 =================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
