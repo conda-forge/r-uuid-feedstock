@@ -3,6 +3,7 @@ About r-uuid-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uuid-feedstock/blob/main/LICENSE.txt)
 
+
 About r-uuid
 ------------
 
@@ -11,6 +12,7 @@ Home: http://www.rforge.net/uuid
 Package license: MIT
 
 Summary: Tools for generating and handling of UUIDs (Universally Unique Identifiers).
+
 About r-uuid
 ------------
 
